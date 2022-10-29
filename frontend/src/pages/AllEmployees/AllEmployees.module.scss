@@ -1,0 +1,64 @@
+.allEmployees {
+  h1 {
+    margin: 0;
+    margin-bottom: 25px;
+  }
+
+  hr {
+    background-color: #0062a3;
+    border: none;
+    height: 1px;
+  }
+
+  .employeeItems {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    li {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      text-align: center;
+      padding: 16px;
+
+      .employeeDescription {
+        h2,
+        p {
+          margin: 0;
+        }
+
+        h2 {
+          margin: 16px 0;
+          font-size: 22px;
+
+          a {
+            color: #0062a3;
+            text-decoration: none;
+            font-family: "Lora", Arial, sans-serif;
+          }
+
+          a:hover,
+          a:active {
+            text-decoration: underline;
+          }
+        }
+
+        p {
+          font-family: "Source Sans Pro", Arial, sans-serif;
+          font-size: 16px;
+          color: #545e69;
+        }
+      }
+    }
+
+    .avatar {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+}

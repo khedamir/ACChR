@@ -1,0 +1,36 @@
+.documents {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  h2 {
+    margin: 0;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .documentItems {
+    margin: 0;
+    margin-top: 36px;
+    list-style: none;
+    padding: 0;
+    min-height: 500px;
+
+    li {
+      margin: 16px 0;
+      a {
+        display: flex;
+        align-items: center;
+        color: #0062a3;
+        height: 80px;
+      }
+
+      p {
+        font-size: 20px;
+        margin: 6px 16px;
+      }
+    }
+
+    img {
+      width: 36px;
+    }
+  }
+}

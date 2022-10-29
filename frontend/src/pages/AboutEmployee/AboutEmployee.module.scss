@@ -1,0 +1,64 @@
+.aboutEmployee {
+  .avatar {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+  }
+
+  hr {
+    background-color: #86af49;
+    border: none;
+    height: 1px;
+  }
+
+  .back {
+    margin: 16px 0;
+    font-size: 18px;
+    display: flex;
+    align-items: flex-start;
+    font-family: "Lora", Arial, sans-serif;
+
+    .folder {
+      * {
+        fill: #0062a3;
+        color: #0062a3;
+      }
+    }
+
+    a {
+      margin-left: 8px;
+      color: #545e69;
+      text-decoration: none;
+      font-family: "Lora", Arial, sans-serif;
+    }
+
+    a:hover,
+    a:active {
+      color: #00243b;
+    }
+  }
+
+  header {
+    display: flex;
+    align-items: flex-start;
+    margin: 26px 0;
+
+    div {
+      margin-left: 24px;
+    }
+
+    h1 {
+      margin-top: 0;
+      color: #1e2427;
+      font-family: "Lora", Arial, sans-serif;
+      font-size: 36px;
+    }
+
+    p {
+      font-family: "Source Sans Pro", Arial, sans-serif;
+      color: #86af49;
+      line-height: 1.625em;
+      font-size: 20px;
+    }
+  }
+}

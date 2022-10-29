@@ -1,0 +1,53 @@
+.posts {
+  h1 {
+    margin: 0 0 60px 0;
+  }
+  .postItems {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin-bottom: 60px;
+      display: flex;
+
+      .mainImage {
+        display: block;
+        width: 595px;
+        min-width: 595px;
+        height: 370px;
+        object-fit: cover;
+        border-radius: 3px;
+      }
+
+      .postDescription {
+        margin-left: 30px;
+      }
+
+      h2 {
+        a {
+          font-size: 24px;
+          font-family: "Lora", Arial, sans-serif;
+          color: #0062a3;
+          margin: 10px 0 30px 0;
+          text-decoration: none;
+        }
+
+        a:hover,
+        a:active {
+          text-decoration: underline;
+        }
+      }
+
+      .content {
+        overflow: hidden;
+        -webkit-line-clamp: 4;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+      }
+    }
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+  }
+}

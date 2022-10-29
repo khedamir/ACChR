@@ -1,0 +1,56 @@
+.organizations {
+  background-color: rgba(225, 231, 236, 0.4);
+}
+.organizationsContent {
+  display: flex;
+  justify-content: flex-start;
+
+  h3 {
+    margin: 0;
+    margin-bottom: 30px;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  h4 {
+    margin: 0 0 0 15px;
+
+    a {
+      text-decoration: none;
+      color: #0062a3;
+      font-family: "Lora", Arial, sans-serif;
+      font-size: 16px;
+    }
+
+    a:hover,
+    a:active {
+      text-decoration: underline;
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    height: 386px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    height: 125px;
+  }
+
+  img {
+    width: 100px;
+    display: block;
+  }
+}
+
+.organizationsContent > div {
+  padding: 0 15px;
+  width: 406px;
+}

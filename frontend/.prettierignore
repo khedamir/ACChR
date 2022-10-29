@@ -1,0 +1,9 @@
+# Ignore artifacts:
+template
+template — копия
+
+# Ignore all HTML files:
+**/.git
+**/.svn
+**/.hg
+**/node_modules

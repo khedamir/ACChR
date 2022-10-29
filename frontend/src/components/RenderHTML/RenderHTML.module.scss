@@ -1,0 +1,47 @@
+.pageHTML {
+  h1 {
+    font-size: 48px;
+    display: flex;
+    color: #1e2427;
+    line-height: normal;
+    font-family: "Lora", Arial, sans-serif;
+    margin-top: 0;
+  }
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #86af49;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    line-height: normal;
+  }
+
+  p,
+  a,
+  ul {
+    font-family: "Source Sans Pro", Arial, sans-serif;
+  }
+
+  p,
+  ul {
+    color: #545e69;
+    font-size: 16px;
+    line-height: 1.625em;
+  }
+
+  a {
+    color: #0062a3;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  a:hover,
+  a:active {
+    text-decoration: none;
+  }
+
+  p:first-child {
+    margin-top: 0;
+  }
+}
